@@ -29,7 +29,7 @@ export default function Conversation({conversation}: ConversationProps): JSX.Ele
         const input = document.getElementById('message') as HTMLInputElement;
         input.value = '';
         conversation = {...conversation, messages: [...messages, {id: createUid(),text: message, last_updated: new Date() as unknown as string }] }
-        conversations.find(item => item.id === conversationId).messages =[...messages, {id: createUid() ,text: message, last_updated: new Date()}]
+        conversations.find(item => item.id === conversationId).messages =[...messages, {id: createUid(),text: message, last_updated: new Date() as unknown as string}]
         setConversations([...conversations])
     }
     
