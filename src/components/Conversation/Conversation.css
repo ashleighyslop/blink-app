@@ -1,0 +1,43 @@
+
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }
+.conversation{
+    width: 100%;
+}
+.conversationMessagesContainer{
+    height: 80vh;
+    max-height: 80vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+  
+}
+.conversationTitle{
+    margin-top:0;
+}
+.conversationMessage{
+    margin-bottom: 32px;
+}
+.conversationMessageDT{
+    font-size: 12px;
+}
+
+.conversationMessageBody{
+    font-size: 24px;
+}
+
+.conversationInput{
+    width: 70%;
+}
+
+.conversationCta{
+    margin-left: 12px;
+}

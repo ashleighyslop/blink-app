@@ -1,0 +1,18 @@
+
+.container{
+  padding: 24px;
+}
+
+@media (min-width: 820px){
+  .layout{
+    display:flex;
+  }
+}
+
+.conversationListContainer{
+  width: 25%;
+}
+
+.conversationContainer{
+  width: 75%;
+}

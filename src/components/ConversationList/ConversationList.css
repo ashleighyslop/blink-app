@@ -1,0 +1,19 @@
+.conversationList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.conversationListItem:not(:first-child){
+    margin-top: 24px;
+}
+
+.conversationListCta{
+    border: none;
+    background-color: #ffffff;
+}
+
+.conversationListCta:hover{
+    cursor: pointer;
+}
