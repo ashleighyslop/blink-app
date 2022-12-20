@@ -8,7 +8,7 @@ import { formatDateTime, createUid, sortBy } from '../../utils';
 
 
 
-export type ConversationProps = {
+type ConversationProps = {
     conversation: ConversationListType;
 };
 

@@ -8,7 +8,7 @@ import {ConversationListType} from '../types'
 
 
 
-export type ConversationListProps = {
+type ConversationListProps = {
     conversations: ConversationListType[];
 };
 
